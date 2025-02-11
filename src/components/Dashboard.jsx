@@ -6,8 +6,15 @@ const Dashboard = () => {
     <div className="container py-5" style={{ overflow: "hidden", wordWrap: "break-word" }}>
       {/* Mentee Section */}
       <div className="card p-5 mb-5 shadow-sm" style={{ backgroundColor: "#f0f0f0" }}>
-        <h2 className="text-center mb-3" style={{ fontWeight: "bold", color: "#a01212" }}>Mentee Section</h2>
-        <hr style={{ border: "2px solid #a01212", width: "100%", margin: "10px auto" }} />
+        <div className="text-center">
+          <h2 className="mb-3" style={{ fontWeight: "bold", color: "#a01212" }}>Mentee Section</h2>
+        </div>
+        
+        {/* HR between heading and first button */}
+        <div className="text-center">
+          <hr style={{ border: "1.5px solid #7d0a0a", width: "100%", margin: "10px auto" }} />
+        </div>
+
         <div className="row g-4 text-center">
           <div className="col-12">
             <button className="btn w-100 py-0" style={{ backgroundColor: "#a01212", color: "white", outline: "none", boxShadow: "none", fontSize: "1.6rem", fontWeight: "300", maxWidth: "100%" }}>Mentee Records</button>
@@ -23,8 +30,14 @@ const Dashboard = () => {
       
       {/* Chat Section */}
       <div className="card p-5 shadow-sm" style={{ backgroundColor: "#f0f0f0" }}>
-        <h4 className="text-center mb-3" style={{ fontWeight: "bold", color: "#a01212" }}>Chat Section</h4>
-        <hr style={{ border: "3px solid #a01212", width: "80%", margin: "10px auto" }} />
+        <div className="text-center">
+          <h2 className="mb-3" style={{ fontWeight: "bold", color: "#a01212" }}>Chat Section</h2>
+        </div>
+
+        <div className="text-center">
+          <hr style={{ border: "1.5px solid #7d0a0a", width: "100%", margin: "10px auto" }} />
+        </div>
+
         <div className="row g-4 text-center">
           <div className="col-12 col-md-6">
             <button className="btn w-100 py-0" style={{ backgroundColor: "#a01212", color: "white", outline: "none", boxShadow: "none", fontSize: "1.6rem", fontWeight: "300", maxWidth: "100%" }}>Admin</button>
