@@ -9,8 +9,6 @@ const Dashboard = () => {
         <div className="text-center">
           <h2 className="mb-3" style={{ fontWeight: "bold", color: "#a01212" }}>Mentee Section</h2>
         </div>
-        
-        {/* HR between heading and first button */}
         <div className="text-center">
           <hr style={{ border: "1.5px solid #7d0a0a", width: "100%", margin: "10px auto" }} />
         </div>
