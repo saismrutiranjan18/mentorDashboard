@@ -17,13 +17,13 @@ const Dashboard = () => {
 
         <div className="row g-4 text-center">
           <div className="col-12">
-            <button className="btn w-100 py-0" style={{ backgroundColor: "#a01212", color: "white", outline: "none", boxShadow: "none", fontSize: "1.6rem", fontWeight: "300", maxWidth: "100%" }}>Mentee Records</button>
+            <button className="btn w-100 py-1" style={{ backgroundColor: "#a01212", color: "white", outline: "none", boxShadow: "none", fontSize: "1.6rem", fontWeight: "300", maxWidth: "100%" }}>Mentee Records</button>
           </div>
           <div className="col-12 col-md-6">
-            <button className="btn w-100 py-0" style={{ backgroundColor: "#a01212", color: "white", outline: "none", boxShadow: "none", fontSize: "1.6rem", fontWeight: "300", maxWidth: "100%" }}>Minutes of Meeting</button>
+            <button className="btn w-100 py-1" style={{ backgroundColor: "#a01212", color: "white", outline: "none", boxShadow: "none", fontSize: "1.6rem", fontWeight: "300", maxWidth: "100%" }}>Minutes of Meeting</button>
           </div>
           <div className="col-12 col-md-6">
-            <button className="btn w-100 py-0" style={{ backgroundColor: "#a01212", color: "white", outline: "none", boxShadow: "none", fontSize: "1.6rem", fontWeight: "300", maxWidth: "100%" }}>Schedule Meeting</button>
+            <button className="btn w-100 py-1" style={{ backgroundColor: "#a01212", color: "white", outline: "none", boxShadow: "none", fontSize: "1.6rem", fontWeight: "300", maxWidth: "100%" }}>Schedule Meeting</button>
           </div>
         </div>
       </div>
@@ -40,10 +40,10 @@ const Dashboard = () => {
 
         <div className="row g-4 text-center">
           <div className="col-12 col-md-6">
-            <button className="btn w-100 py-0" style={{ backgroundColor: "#a01212", color: "white", outline: "none", boxShadow: "none", fontSize: "1.6rem", fontWeight: "300", maxWidth: "100%" }}>Admin</button>
+            <button className="btn w-100 py-1" style={{ backgroundColor: "#a01212", color: "white", outline: "none", boxShadow: "none", fontSize: "1.6rem", fontWeight: "300", maxWidth: "100%" }}>Admin</button>
           </div>
           <div className="col-12 col-md-6">
-            <button className="btn w-100 py-0" style={{ backgroundColor: "#a01212", color: "white", outline: "none", boxShadow: "none", fontSize: "1.6rem", fontWeight: "300", maxWidth: "100%" }}>Mentor Coordinator</button>
+            <button className="btn w-100 py-1" style={{ backgroundColor: "#a01212", color: "white", outline: "none", boxShadow: "none", fontSize: "1.6rem", fontWeight: "300", maxWidth: "100%" }}>Mentor Coordinator</button>
           </div>
         </div>
       </div>
